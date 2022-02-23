@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="logo.jpeg" type="image/jpeg">
+        <title>Ingrese un nuevo gasto-PIGGI</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <link rel="stylesheet" type="text/css" href="gasto.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <script src="https://kit.fontawesome.com/972727ee1a.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,300;1,400&family=Yellowtail&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="header-in-session">
+            <img class="logo" src="logo.jpeg">
+            <h1 class="title-in-session">PIGGI</h1>
+            <div class="link-bar">
+                <a class="link-beginning" href="home.html">Inicio</a>
+                <a class="link-new-spending" href="gasto.html">Registra un nuevo gasto</a>
+                <a class="link-profile" href="perfil.html">Perfil</a>
+            </div> 
+        </header>
+        <article>
+            <section id="input-border">
+                <p class="spending-title"> Ingrese un nuevo gasto</p>
+                    <label class="spending">Ingrese el monto gastando:</label>
+                    <input class="input-spending" type="text" id="nom" name="nom" required
+                    minlength="8" maxlength="10" size="10" placeholder="Monto">
+
+                    <label class="category-title">Ingrese la categoría de gasto(Solo estas: Comida, Ropa, Entretenimiento, Otros):</label>
+                    <input class="input-category" type="text" id="nom" name="nom" required
+                    minlength="8" maxlength="10" size="10" placeholder="Categoria">
+
+                    <label class="date-title">Ingrese la fecha en la que se realizo el gasto:</label>
+                    <input class="input-date" type="date" id="nom" name="nom" required
+                    minlength="8" maxlength="10" size="10">
+
+                    <label class="store-title">Ingrese el nombre de la tienda:</label>
+                    <input class="input-store" type="text" id="nom" name="nom" required
+                    minlength="8" maxlength="10" size="10" placeholder="Nombre">
+
+                <a class="bottom-save-spending">Guardar gasto</a>
+                <a class="bottom-delete-spending">Borrar gasto</a>
+
+            </section>
+        </article>
+        <footer class="footer">
+            <h4 class="Copyrigth">PIGGI 1.0 2022 - Copyrigth</h4> <p class="creator">Creado por : EduTech</p>
+        </footer>
+    </body>
+</html>

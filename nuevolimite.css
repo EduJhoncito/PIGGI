@@ -1,0 +1,17 @@
+.footer{
+    background-color: rgb(7, 7, 85);
+    height: 150px;
+    width: 1850px;
+    position: relative;
+    top: 250px;    
+}
+
+@media screen and (max-width:500px){
+    .footer{
+        background-color: rgb(7, 7, 85);
+        height: 150px;
+        width: 1850px;
+        position: relative;
+        top: 250px;    
+    }
+}

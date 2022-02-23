@@ -1,0 +1,135 @@
+#input-border{
+    background: rgb(145, 139, 139);
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    border: 4px solid rgb(145, 139, 139);
+    height: 700px;
+    width: 1400px;
+    left: 200px;
+    bottom: 80px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px rgb(92, 88, 88);
+}
+
+.record-name{
+    background-color: rgb(145, 139, 139);
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    left: 350px;
+    bottom: -10px;
+}
+
+.input-name{
+    background-color: skyblue;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    top:80px;
+    left: -90px;
+}
+
+.record-password{
+    background-color: rgb(145, 139, 139);
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    top:210px;
+    left: 150px;
+}
+
+.input-password{
+    background-color: skyblue;
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    top:270px;
+    left:-210px;
+}
+
+.bottom-enter{
+    display: inline-block;
+    position: relative;
+    top: 450px;
+    left: 300px;
+    font-size: 30px;
+    background: rgb(223, 179, 77);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    padding-left: 20px;
+    box-shadow: 20px 20px 50px rgb(20, 20, 20);
+    color: rgb(14, 13, 13);
+}
+
+.bottom-enter:hover{
+    color:rgb(255, 77, 71);
+}
+
+@media screen and (max-width:500px) {
+    #input-border{
+        background: rgb(145, 139, 139);
+        margin: auto;
+        position: relative;
+        display: inline-block;
+        border: 4px solid rgb(145, 139, 139);
+        height: 700px;
+        width: 480px;
+        left: 5px;
+        bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 20px 20px 50px rgb(92, 88, 88);
+    }
+
+    .record-name{
+        background-color: rgb(145, 139, 139);
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        left: 40px;
+        bottom: -20px;
+    }
+
+    .input-name{
+        background-color: skyblue;
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        left: 130px;
+        top: 50px;
+    }
+    
+    .record-password{
+        background-color: rgb(145, 139, 139);
+        position: relative;
+        display: inline;
+        font-size: 20px;
+        top: 160px;
+        left: -80px;
+    }
+
+    .input-password{
+        background-color: skyblue;
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        left: 130px;
+        top: 180px;
+    }
+
+    .bottom-enter{
+        display: inline-block;
+        position: relative;
+        top: 350px;
+        left: -30px;
+        font-size: 20px;
+        background: rgb(223, 179, 77);
+        border-radius: 20px;
+        height: 30px;
+        width: 120px;
+        padding-left: 20px;
+        box-shadow: 20px 20px 50px rgb(20, 20, 20);
+        color: rgb(14, 13, 13);
+    }
+}
